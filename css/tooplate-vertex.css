@@ -341,7 +341,7 @@ span, footer {  line-height: 1.8; }
 
 .tm-media-body {  padding-left: 30px; }
 @media screen and (max-width:600px) {
-    .tm-media-body {  padding-left: 10px; }
+    .tm-media-body {  padding-left: 20px; }
 }
 
 .tm-media-span {
