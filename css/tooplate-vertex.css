@@ -207,6 +207,9 @@ span, footer {  line-height: 1.8; }
     font-weight: 1200;
     font-size: 35px;
 }
+@media screen and (max-width:600px){
+    .tm-text-small { font-size: 0.8em; }
+}
 .tm-text-secondary { color: #9999CC; }
 .tm-text-link { color: #999; }
 .tm-text-link:hover { color: #141614; }
@@ -337,6 +340,9 @@ span, footer {  line-height: 1.8; }
 }
 
 .tm-media-body {  padding-left: 30px; }
+@media screen and (max-width:600px) {
+    .tm-media-body {  padding-left: 10px; }
+}
 
 .tm-media-span {
     margin-bottom: 15px;
@@ -609,6 +615,13 @@ figure.effect-goliath:hover p {
         padding-left: 20px;
         padding-right: 20px;
         padding: 50px 20px;
+    }
+    @media screen and (max-width:600px) {
+        .tm-content {
+            padding-left: 0px;
+            padding-right: 20px;
+           
+        }
     }
 
     .tm-copyright { margin-left: 15px; }
